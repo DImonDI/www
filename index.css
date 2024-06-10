@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr 8fr 3fr 12fr;
+    row-gap: 5%;
+}
+
+.table_element{
+    font-size: 1.2rem;
+}
